@@ -27,7 +27,7 @@
 
 - (void)start{
     
-    if (self.finished || self.cancelled) {
+    if (_finished || _cancelled) {
         [self cancel];
         return;
     }
@@ -94,36 +94,36 @@
 
 - (void)setReady:(BOOL)isReady {
     
-    if (self.ready != isReady) {
+    if (_ready != isReady) {
         [self willChangeValueForKey:@"isReady"];
-        self.ready = isReady;
+        _ready = isReady;
         [self didChangeValueForKey:@"isReady"];
     }
 }
 
 - (void)setExecuting:(BOOL)isExecuting {
     
-    if (self.executing != isExecuting) {
+    if (_executing != isExecuting) {
         [self willChangeValueForKey:@"isExecuting"];
-        self.executing = isExecuting;
+        _executing = isExecuting;
         [self didChangeValueForKey:@"isExecuting"];
     }
 }
 
 - (void)setFinished:(BOOL)isFinished {
     
-    if (self.finished != isFinished) {
+    if (_finished != isFinished) {
         [self willChangeValueForKey:@"isFinished"];
-        self.finished = isFinished;
+        _finished = isFinished;
         [self didChangeValueForKey:@"isFinished"];
     }
 }
 
 - (void)setCancelled:(BOOL)isCancelled {
     
-    if (self.cancelled != isCancelled) {
+    if (_cancelled != isCancelled) {
         [self willChangeValueForKey:@"isCancelled"];
-        self.cancelled = isCancelled;
+        _cancelled = isCancelled;
         [self didChangeValueForKey:@"isCancelled"];
     }
 }
@@ -137,15 +137,15 @@
 }
 
 - (BOOL)isFinished{
-    return self.finished;
+    return _finished;
 }
 
 - (BOOL)isExecuting{
-    return self.executing;
+    return _executing;
 }
 
 - (BOOL)isCancelled{
-    return self.cancelled;
+    return _cancelled;
 }
 
 
