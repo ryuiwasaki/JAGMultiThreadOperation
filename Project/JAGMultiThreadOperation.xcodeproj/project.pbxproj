@@ -1,0 +1,480 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		A857FE3F199C806200E6CCDC /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A857FE3E199C806200E6CCDC /* Foundation.framework */; };
+		A857FE41199C806200E6CCDC /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A857FE40199C806200E6CCDC /* CoreGraphics.framework */; };
+		A857FE43199C806200E6CCDC /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A857FE42199C806200E6CCDC /* UIKit.framework */; };
+		A857FE49199C806200E6CCDC /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = A857FE47199C806200E6CCDC /* InfoPlist.strings */; };
+		A857FE4B199C806300E6CCDC /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = A857FE4A199C806300E6CCDC /* main.m */; };
+		A857FE4F199C806300E6CCDC /* JAGAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = A857FE4E199C806300E6CCDC /* JAGAppDelegate.m */; };
+		A857FE52199C806300E6CCDC /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A857FE50199C806300E6CCDC /* Main.storyboard */; };
+		A857FE55199C806300E6CCDC /* JAGViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A857FE54199C806300E6CCDC /* JAGViewController.m */; };
+		A857FE57199C806300E6CCDC /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A857FE56199C806300E6CCDC /* Images.xcassets */; };
+		A857FE5E199C806300E6CCDC /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A857FE5D199C806300E6CCDC /* XCTest.framework */; };
+		A857FE5F199C806300E6CCDC /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A857FE3E199C806200E6CCDC /* Foundation.framework */; };
+		A857FE60199C806300E6CCDC /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A857FE42199C806200E6CCDC /* UIKit.framework */; };
+		A857FE68199C806300E6CCDC /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = A857FE66199C806300E6CCDC /* InfoPlist.strings */; };
+		A857FE6A199C806300E6CCDC /* JAGMultiThreadOperationTests.m in Sources */ = {isa = PBXBuildFile; fileRef = A857FE69199C806300E6CCDC /* JAGMultiThreadOperationTests.m */; };
+		A857FE75199C814000E6CCDC /* JAGMultiThreadOperation.m in Sources */ = {isa = PBXBuildFile; fileRef = A857FE74199C814000E6CCDC /* JAGMultiThreadOperation.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		A857FE61199C806300E6CCDC /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = A857FE33199C806200E6CCDC /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = A857FE3A199C806200E6CCDC;
+			remoteInfo = JAGMultiThreadOperation;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		A857FE3B199C806200E6CCDC /* JAGMultiThreadOperation.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = JAGMultiThreadOperation.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		A857FE3E199C806200E6CCDC /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		A857FE40199C806200E6CCDC /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		A857FE42199C806200E6CCDC /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		A857FE46199C806200E6CCDC /* JAGMultiThreadOperation-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "JAGMultiThreadOperation-Info.plist"; sourceTree = "<group>"; };
+		A857FE48199C806200E6CCDC /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		A857FE4A199C806300E6CCDC /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		A857FE4C199C806300E6CCDC /* JAGMultiThreadOperation-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "JAGMultiThreadOperation-Prefix.pch"; sourceTree = "<group>"; };
+		A857FE4D199C806300E6CCDC /* JAGAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = JAGAppDelegate.h; sourceTree = "<group>"; };
+		A857FE4E199C806300E6CCDC /* JAGAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = JAGAppDelegate.m; sourceTree = "<group>"; };
+		A857FE51199C806300E6CCDC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		A857FE53199C806300E6CCDC /* JAGViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = JAGViewController.h; sourceTree = "<group>"; };
+		A857FE54199C806300E6CCDC /* JAGViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = JAGViewController.m; sourceTree = "<group>"; };
+		A857FE56199C806300E6CCDC /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		A857FE5C199C806300E6CCDC /* JAGMultiThreadOperationTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = JAGMultiThreadOperationTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		A857FE5D199C806300E6CCDC /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		A857FE65199C806300E6CCDC /* JAGMultiThreadOperationTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "JAGMultiThreadOperationTests-Info.plist"; sourceTree = "<group>"; };
+		A857FE67199C806300E6CCDC /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		A857FE69199C806300E6CCDC /* JAGMultiThreadOperationTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = JAGMultiThreadOperationTests.m; sourceTree = "<group>"; };
+		A857FE73199C814000E6CCDC /* JAGMultiThreadOperation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = JAGMultiThreadOperation.h; path = ../../Classes/iOS/JAGMultiThreadOperation.h; sourceTree = "<group>"; };
+		A857FE74199C814000E6CCDC /* JAGMultiThreadOperation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = JAGMultiThreadOperation.m; path = ../../Classes/iOS/JAGMultiThreadOperation.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		A857FE38199C806200E6CCDC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A857FE41199C806200E6CCDC /* CoreGraphics.framework in Frameworks */,
+				A857FE43199C806200E6CCDC /* UIKit.framework in Frameworks */,
+				A857FE3F199C806200E6CCDC /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A857FE59199C806300E6CCDC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A857FE5E199C806300E6CCDC /* XCTest.framework in Frameworks */,
+				A857FE60199C806300E6CCDC /* UIKit.framework in Frameworks */,
+				A857FE5F199C806300E6CCDC /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		A857FE32199C806200E6CCDC = {
+			isa = PBXGroup;
+			children = (
+				A857FE44199C806200E6CCDC /* JAGMultiThreadOperation */,
+				A857FE63199C806300E6CCDC /* JAGMultiThreadOperationTests */,
+				A857FE3D199C806200E6CCDC /* Frameworks */,
+				A857FE3C199C806200E6CCDC /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		A857FE3C199C806200E6CCDC /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				A857FE3B199C806200E6CCDC /* JAGMultiThreadOperation.app */,
+				A857FE5C199C806300E6CCDC /* JAGMultiThreadOperationTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		A857FE3D199C806200E6CCDC /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				A857FE3E199C806200E6CCDC /* Foundation.framework */,
+				A857FE40199C806200E6CCDC /* CoreGraphics.framework */,
+				A857FE42199C806200E6CCDC /* UIKit.framework */,
+				A857FE5D199C806300E6CCDC /* XCTest.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		A857FE44199C806200E6CCDC /* JAGMultiThreadOperation */ = {
+			isa = PBXGroup;
+			children = (
+				A857FE73199C814000E6CCDC /* JAGMultiThreadOperation.h */,
+				A857FE74199C814000E6CCDC /* JAGMultiThreadOperation.m */,
+				A857FE4D199C806300E6CCDC /* JAGAppDelegate.h */,
+				A857FE4E199C806300E6CCDC /* JAGAppDelegate.m */,
+				A857FE50199C806300E6CCDC /* Main.storyboard */,
+				A857FE53199C806300E6CCDC /* JAGViewController.h */,
+				A857FE54199C806300E6CCDC /* JAGViewController.m */,
+				A857FE56199C806300E6CCDC /* Images.xcassets */,
+				A857FE45199C806200E6CCDC /* Supporting Files */,
+			);
+			path = JAGMultiThreadOperation;
+			sourceTree = "<group>";
+		};
+		A857FE45199C806200E6CCDC /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				A857FE46199C806200E6CCDC /* JAGMultiThreadOperation-Info.plist */,
+				A857FE47199C806200E6CCDC /* InfoPlist.strings */,
+				A857FE4A199C806300E6CCDC /* main.m */,
+				A857FE4C199C806300E6CCDC /* JAGMultiThreadOperation-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		A857FE63199C806300E6CCDC /* JAGMultiThreadOperationTests */ = {
+			isa = PBXGroup;
+			children = (
+				A857FE69199C806300E6CCDC /* JAGMultiThreadOperationTests.m */,
+				A857FE64199C806300E6CCDC /* Supporting Files */,
+			);
+			path = JAGMultiThreadOperationTests;
+			sourceTree = "<group>";
+		};
+		A857FE64199C806300E6CCDC /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				A857FE65199C806300E6CCDC /* JAGMultiThreadOperationTests-Info.plist */,
+				A857FE66199C806300E6CCDC /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		A857FE3A199C806200E6CCDC /* JAGMultiThreadOperation */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A857FE6D199C806300E6CCDC /* Build configuration list for PBXNativeTarget "JAGMultiThreadOperation" */;
+			buildPhases = (
+				A857FE37199C806200E6CCDC /* Sources */,
+				A857FE38199C806200E6CCDC /* Frameworks */,
+				A857FE39199C806200E6CCDC /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = JAGMultiThreadOperation;
+			productName = JAGMultiThreadOperation;
+			productReference = A857FE3B199C806200E6CCDC /* JAGMultiThreadOperation.app */;
+			productType = "com.apple.product-type.application";
+		};
+		A857FE5B199C806300E6CCDC /* JAGMultiThreadOperationTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A857FE70199C806300E6CCDC /* Build configuration list for PBXNativeTarget "JAGMultiThreadOperationTests" */;
+			buildPhases = (
+				A857FE58199C806300E6CCDC /* Sources */,
+				A857FE59199C806300E6CCDC /* Frameworks */,
+				A857FE5A199C806300E6CCDC /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				A857FE62199C806300E6CCDC /* PBXTargetDependency */,
+			);
+			name = JAGMultiThreadOperationTests;
+			productName = JAGMultiThreadOperationTests;
+			productReference = A857FE5C199C806300E6CCDC /* JAGMultiThreadOperationTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		A857FE33199C806200E6CCDC /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = JAG;
+				LastUpgradeCheck = 0510;
+				ORGANIZATIONNAME = RyuIwasaki;
+				TargetAttributes = {
+					A857FE5B199C806300E6CCDC = {
+						TestTargetID = A857FE3A199C806200E6CCDC;
+					};
+				};
+			};
+			buildConfigurationList = A857FE36199C806200E6CCDC /* Build configuration list for PBXProject "JAGMultiThreadOperation" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = A857FE32199C806200E6CCDC;
+			productRefGroup = A857FE3C199C806200E6CCDC /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				A857FE3A199C806200E6CCDC /* JAGMultiThreadOperation */,
+				A857FE5B199C806300E6CCDC /* JAGMultiThreadOperationTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		A857FE39199C806200E6CCDC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A857FE57199C806300E6CCDC /* Images.xcassets in Resources */,
+				A857FE49199C806200E6CCDC /* InfoPlist.strings in Resources */,
+				A857FE52199C806300E6CCDC /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A857FE5A199C806300E6CCDC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A857FE68199C806300E6CCDC /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		A857FE37199C806200E6CCDC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A857FE4B199C806300E6CCDC /* main.m in Sources */,
+				A857FE55199C806300E6CCDC /* JAGViewController.m in Sources */,
+				A857FE75199C814000E6CCDC /* JAGMultiThreadOperation.m in Sources */,
+				A857FE4F199C806300E6CCDC /* JAGAppDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A857FE58199C806300E6CCDC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A857FE6A199C806300E6CCDC /* JAGMultiThreadOperationTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		A857FE62199C806300E6CCDC /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = A857FE3A199C806200E6CCDC /* JAGMultiThreadOperation */;
+			targetProxy = A857FE61199C806300E6CCDC /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		A857FE47199C806200E6CCDC /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A857FE48199C806200E6CCDC /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		A857FE50199C806300E6CCDC /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A857FE51199C806300E6CCDC /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		A857FE66199C806300E6CCDC /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A857FE67199C806300E6CCDC /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		A857FE6B199C806300E6CCDC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		A857FE6C199C806300E6CCDC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		A857FE6E199C806300E6CCDC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "JAGMultiThreadOperation/JAGMultiThreadOperation-Prefix.pch";
+				INFOPLIST_FILE = "JAGMultiThreadOperation/JAGMultiThreadOperation-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		A857FE6F199C806300E6CCDC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "JAGMultiThreadOperation/JAGMultiThreadOperation-Prefix.pch";
+				INFOPLIST_FILE = "JAGMultiThreadOperation/JAGMultiThreadOperation-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		A857FE71199C806300E6CCDC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/JAGMultiThreadOperation.app/JAGMultiThreadOperation";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "JAGMultiThreadOperation/JAGMultiThreadOperation-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "JAGMultiThreadOperationTests/JAGMultiThreadOperationTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Debug;
+		};
+		A857FE72199C806300E6CCDC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/JAGMultiThreadOperation.app/JAGMultiThreadOperation";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "JAGMultiThreadOperation/JAGMultiThreadOperation-Prefix.pch";
+				INFOPLIST_FILE = "JAGMultiThreadOperationTests/JAGMultiThreadOperationTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		A857FE36199C806200E6CCDC /* Build configuration list for PBXProject "JAGMultiThreadOperation" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A857FE6B199C806300E6CCDC /* Debug */,
+				A857FE6C199C806300E6CCDC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A857FE6D199C806300E6CCDC /* Build configuration list for PBXNativeTarget "JAGMultiThreadOperation" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A857FE6E199C806300E6CCDC /* Debug */,
+				A857FE6F199C806300E6CCDC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A857FE70199C806300E6CCDC /* Build configuration list for PBXNativeTarget "JAGMultiThreadOperationTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A857FE71199C806300E6CCDC /* Debug */,
+				A857FE72199C806300E6CCDC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = A857FE33199C806200E6CCDC /* Project object */;
+}
