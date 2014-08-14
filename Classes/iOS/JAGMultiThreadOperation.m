@@ -10,10 +10,10 @@
 
 @interface JAGMultiThreadOperation ()
 
-@property (nonatomic)BOOL ready;
-@property (nonatomic)BOOL executing;
-@property (nonatomic)BOOL finished;
-@property (nonatomic)BOOL cancelled;
+@property (nonatomic) BOOL ready;
+@property (nonatomic) BOOL executing;
+@property (nonatomic) BOOL finished;
+@property (nonatomic) BOOL cancelled;
 
 @end
 
@@ -27,7 +27,7 @@
 
 - (void)start{
     
-    if (_finished || _cancelled) {
+    if (self.finished || self.cancelled) {
         [self cancel];
         return;
     }
@@ -94,36 +94,36 @@
 
 - (void)setReady:(BOOL)isReady {
     
-    if (_ready != isReady) {
+    if (self.ready != isReady) {
         [self willChangeValueForKey:@"isReady"];
-        _ready = isReady;
+        self.ready = isReady;
         [self didChangeValueForKey:@"isReady"];
     }
 }
 
 - (void)setExecuting:(BOOL)isExecuting {
     
-    if (_executing != isExecuting) {
+    if (self.executing != isExecuting) {
         [self willChangeValueForKey:@"isExecuting"];
-        _executing = isExecuting;
+        self.executing = isExecuting;
         [self didChangeValueForKey:@"isExecuting"];
     }
 }
 
 - (void)setFinished:(BOOL)isFinished {
     
-    if (_finished != isFinished) {
+    if (self.finished != isFinished) {
         [self willChangeValueForKey:@"isFinished"];
-        _finished = isFinished;
+        self.finished = isFinished;
         [self didChangeValueForKey:@"isFinished"];
     }
 }
 
 - (void)setCancelled:(BOOL)isCancelled {
     
-    if (_cancelled != isCancelled) {
+    if (self.cancelled != isCancelled) {
         [self willChangeValueForKey:@"isCancelled"];
-        _cancelled = isCancelled;
+        self.cancelled = isCancelled;
         [self didChangeValueForKey:@"isCancelled"];
     }
 }
@@ -137,15 +137,15 @@
 }
 
 - (BOOL)isFinished{
-    return _finished;
+    return self.finished;
 }
 
 - (BOOL)isExecuting{
-    return _executing;
+    return self.executing;
 }
 
 - (BOOL)isCancelled{
-    return _cancelled;
+    return self.cancelled;
 }
 
 
